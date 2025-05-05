@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-background{
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+}
+.purple{
+    color: #A259FF;
+}
+input[type="text"]{
+    border: 1px solid none;
+
+}
+input[type="text"]:focus{
+    outline: none;
+    border-color: none;
+}
+.width-container{
+    max-width: 1440px;
+}
+
+@import "tailwindcss";
